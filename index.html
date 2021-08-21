@@ -80,10 +80,10 @@
                         <p class="lead mb-0">
                        <dl>
                         <dt>Proponer un fármaco para el tratamiento de VIH.</dt>
-                        <dd>--Buscar el PDB de la VIH proteasa. </dd>
-                        <dd>--Buscar los PDBs de ligands usados para inhibir a la VIH proteasa. </dd>
-                        <dd>--Buscar los PDBs de ligands usados para inhibir proteasas virales. </dd>
-                        <dd>--Realizar el docking molecular. </dd>
+                            <dd>-- Buscar el PDB de la VIH proteasa. </dd>
+                            <dd>-- Buscar los PDBs de ligands usados para inhibir a la VIH proteasa. </dd>
+                            <dd>-- Buscar los PDBs de ligands usados para inhibir proteasas virales. </dd>
+                            <dd>-- Realizar el docking molecular. </dd>
                         <dt>Proponer un ligand que interaccione con la VIH proteasa.</dt>
                         
                        </dl>
@@ -95,10 +95,15 @@
                         <h2>Metodología</h2>
                         <p class="lead mb-0">
                         <ol>
-                          <li>Análisis de la proteina</li>
+                          <li>Búsqueda de la proteina</li>
+                            <dd>-- Se realizó una búsqueda de la VIH proteasa dentro de Protein Data Bank.</dd>
                           <li>Limpieza de la proteina</li>
+                            <dd>-- Por medio de Chimera 1.15 se realizó la eliminación de ligands, solvente y otras cadenas que fuesen ajenas a la proteina de interés. Esto para evitar problemas en el docking molecular y mejorar la eficacia del método. </dd>
                           <li>Selección de ligands</li>
-                           <li>Docking molecular</li>                          
+                            <dd>-- Realizamos una selección de 13 ligands. La mayoría fueron fármacos previamente usados en el la VIH proteasa, estos fueron los grupo control. 
+                                No obstante, seleccionamos otros fármacos cuyo uso ha sido probado en la hepatitis C, específicamente aquellos que atacan a la proteasa. </dd>
+                           <li>Docking molecular</li>     
+                            
                         </ol></p>
                     </div>
                 </div>

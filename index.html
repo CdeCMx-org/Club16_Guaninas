@@ -105,17 +105,21 @@ Por tal motivo se buscó realizar dockings correspondientes al HIV-1 proteasa pa
                         <h2>Metodología</h2>
                         <p class="lead mb-0">
                         <ol>
+                            <br>
                           <li>Búsqueda de la proteina</li>
                             <br>
                             <dd>-- Se realizó una búsqueda de la VIH proteasa dentro de Protein Data Bank. El código que utilizamos es 4LL3, el cual es la VIH proteasa junto con ligand añadido, en este caso darunavir. La proteina se descargó en formato .pdb para ser limpiada en Chimera 1.15 </dd>
-                          <li>Limpieza de la proteina</li>
+                        <br>
+                           <li>Limpieza de la proteina</li>
                             <br>
                             <dd>-- Por medio de Chimera 1.15 se realizó la eliminación de ligands, solvente y otras cadenas que fuesen ajenas a la proteina de interés. Esto para evitar problemas en el docking molecular y mejorar la eficacia del método. </dd>
-                          <li>Selección de ligands</li>
+                         <br>
+                           <li>Selección de ligands</li>
                             <br>
                             <dd>-- Realizamos una selección de 13 ligands. La mayoría fueron fármacos previamente usados en la VIH proteasa, estos fueron el grupo control. 
                                 No obstante, seleccionamos otros fármacos cuyo uso ha sido probado en la hepatitis C, específicamente aquellos que atacan a la proteasa. La inclusión de fármacos ya probados y otros con potencial interacción con la VIH proteasa nos permite comparar la eficacia de cada droga y así tener un complejo protein-ligand mucho mejor.</dd>                            
                             <dd>-- Los ligands se obtuvieron de DrugBank, Zinc y PubChem, todos en un formato SDF.
+                           <br>
                            <li>Docking molecular</li>  
                                 <br>
                             <dd>-- Realizamos el docking molecular con la proteina 4LL3 ya curada, y los ligands seleccionados. Para ello es indispensable el uso del programa DockThor, el cual realiza el modelo acoplamiento de forma automática.  

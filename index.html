@@ -75,8 +75,8 @@
                  
                     <div class="col-lg-6 order-lg-1 my-auto showcase-text">
                         <h2>Planteamiento del problema</h2>
-                        <p class="lead mb-0"> El Virus de la Inmunodeficiencia Humana (HIV) afecta principalmente al sistema inmune y si el portador no es tratado, la infección evoluciona hacia el Síndrome de Inmunodeficiencia Adquirida. Dicho virus, junto con la enfermedad, es considerado una epidemia por la facilidad de transmisión.   <br><br>
-Según la Dirección de Vigilancia Epidemiológica de Enfermedades Transmisibles, existe una mayor distribución de los notificados de VIH en hombres, ocupando el 81.3% de los casos notificados y aunque en los últimos años el porcentaje de incidencias haya bajado considerablemente, casi un 24%, los datos indican que la tasa de mortalidad el 2019 es de 4.19%, un aumento del 0.37% en comparación a los 3 años anteriores, cuando se había logrado una baja considerable desde 1990.  <br><br>
+                        <p class="lead mb-0"> El Virus de la Inmunodeficiencia Humana (HIV) afecta principalmente al sistema inmune y si el portador no es tratado, la infección evoluciona hacia el Síndrome de Inmunodeficiencia Adquirida. Dicho virus, junto con la enfermedad, es considerado una epidemia por la gran cantidad de portadores.   <br><br>
+Según la Dirección de Vigilancia Epidemiológica de Enfermedades Transmisibles, existe una mayor distribución de los notificados de VIH en hombres, ocupando el 81.3% de los casos notificados y aunque en los últimos años el porcentaje de incidencias haya bajado considerablemente, casi un 24% , los datos indican que la tasa de mortalidad el 2019 es de 4.19% , un aumento del 0.37% en comparación a los 3 años anteriores, cuando se había logrado una baja considerable desde 1990.  <br><br>
 Si bien existen alternativas como los tratamientos antirretrovirales, es de gran relevancia buscar nuevos tratamientos debido a la farmacorresistencia o bien, la interacción entre el fármaco con la proteína del virus no es tan efectiva. <br><br>
                         Por otra parte la VIH proteasa es una enzima indispensable para la correcta replicación del virus del VIH, haciéndola un blanco atractivo para el desarrollo de fármacos que inhiban su función por medio de interacciones electrostáticas. 
                             Por tal motivo se realizó un estudio de acoplamiento molecular, en el cual se evalúa la afinidad de fármacos probados y otros ligands en VIH proteasa, los cuales podrían mejorar la situación sanitaria ante la epidemia provocada por el VIH.
@@ -107,22 +107,22 @@ Si bien existen alternativas como los tratamientos antirretrovirales, es de gran
                             <br>
                           <li>Búsqueda de la proteina</li>
                             <br>
-                            <dd>-- Se realizó una búsqueda de la VIH proteasa dentro de Protein Data Bank. El código que utilizamos es 4LL3, el cual es la VIH proteasa junto con ligand añadido, en este caso darunavir. La proteina se descargó en formato .pdb para ser limpiada en Chimera 1.15 </dd>
+                            <dd>-- Se realizó una búsqueda de la VIH proteasa dentro de Protein Data Bank. El código que utilizamos es 4LL3, el cual es la VIH proteasa junto con darunavir.<br> La proteina se descargó en formato .pdb para ser limpiada en Chimera 1.15 <align = "justify"> </dd>
                         <br>
                            <li>Limpieza de la proteina</li>
                             <br>
-                            <dd>-- Por medio de Chimera 1.15 se realizó la eliminación de ligands, solvente y otras cadenas que fuesen ajenas a la proteina de interés. Esto para evitar problemas en el docking molecular y mejorar la eficacia del método. </dd>
+                            <dd>-- Por medio de Chimera 1.15 se realizó la eliminación de ligands, solvente y otras cadenas que fuesen ajenas a la proteina de interés. Esto para evitar problemas en el docking molecular y mejorar la eficacia del método. <align = "justify"> </dd>
                          <br>
                            <li>Selección de ligands</li>
                             <br>
                             <dd>-- Realizamos una selección de 13 ligands. La mayoría fueron fármacos previamente usados en la VIH proteasa, estos fueron el grupo control. 
-                                No obstante, seleccionamos otros fármacos cuyo uso ha sido probado en la hepatitis C, específicamente aquellos que atacan a la proteasa. La inclusión de fármacos ya probados y otros con potencial interacción con la VIH proteasa nos permite comparar la eficacia de cada droga y así tener un complejo protein-ligand mucho mejor.</dd>                            
-                            <dd>-- Los ligands se obtuvieron de DrugBank, Zinc y PubChem, todos en un formato SDF.
+                                No obstante, seleccionamos otros fármacos cuyo uso ha sido probado en la hepatitis C, específicamente aquellos que atacan a la proteasa. La inclusión de fármacos ya probados y otros con potencial interacción con la VIH proteasa nos permite comparar la eficacia de cada droga y así tener un complejo protein-ligand mucho mejor. <align = "justify"></dd>                            
+                            <dd>-- Los ligands se obtuvieron de DrugBank, Zinc y PubChem, todos en un formato SDF.<align = "justify">
                            <br>
                                 <br>
                            <li>Docking molecular</li>  
                                 <br>
-                            <dd>-- Realizamos el docking molecular con la proteina 4LL3 ya limpiada, y los ligands seleccionados. Para ello es indispensable el uso del programa DockThor, el cual realiza el acoplamiento de forma automática.  
+                            <dd>-- Realizamos el docking molecular con la proteina 4LL3 ya depurada, y los ligands seleccionados. Para ello es indispensable el uso del programa DockThor, el cual realiza el acoplamiento de forma automática.  <align = "justify">
                             </ol></p>
                         </div>
                      </div>
@@ -260,7 +260,7 @@ Si bien existen alternativas como los tratamientos antirretrovirales, es de gran
                     </ol>
                          <p class="lead mb-0">La gráfica considera a los mejores 5 ligands de los 13 que fueron testeados. <br><br>
                              
-                        TMC-310911 resultó ser el mejor ligand para esta enzima, sin embargo es una droga que ya ha sido probada en VIH proteasa. Por lo consiguiente y respetando los objetivos del proyecto, nos enfocamos en Sovaprevir. Sin olvidar que Vaniprevir y NCPC son drogas usadas para inhibir la proteasa de la hepatitis C, aún consiguen una buena afinidad, inclusive mejores valores que los conseguidos por compuestos usados para atacar a la VIH proteasa.</p>
+                        TMC-310911 resultó ser el mejor ligand para esta enzima, sin embargo es una droga que ya ha sido probada en VIH proteasa. Por lo consiguiente y respetando los objetivos del proyecto, nos enfocamos en Sovaprevir, el cual es el segundo mejor ligand. Sin olvidar que Vaniprevir y NCPC son drogas usadas para inhibir la proteasa de la hepatitis C, y aún consiguen una buena afinidad, inclusive mejores valores que los conseguidos por compuestos usados para atacar a la VIH proteasa.</p>
                     </div>
                 </div>
                  <div class="row g-0">
